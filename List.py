@@ -20,3 +20,24 @@ workers.extend(newWorkers)
 
 
 print(workers)
+
+print(workers[2:6])
+
+
+
+del workers[0] #Ana delete
+workers.remove("James")
+
+
+print(workers)
+
+
+##to find the index of an element
+
+print(workers.index("Messi"))
+
+newWorkers1 = ["sister","Engineer","Pinto77","Pinto77","Pinto77"]
+workers.extend(newWorkers1)
+
+
+print(workers.count("Pinto77"))
