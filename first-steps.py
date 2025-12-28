@@ -1,2 +1,3 @@
-message = "Hello Coco77"
-print(message)
+age = "50"
+
+print("La edad de la persona es "+ age+ " años")
