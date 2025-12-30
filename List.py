@@ -41,3 +41,12 @@ workers.extend(newWorkers1)
 
 
 print(workers.count("Pinto77"))
+
+
+workers.append("Pedro")
+
+
+print(workers)
+
+
+print(workers.index("Pedro"))
