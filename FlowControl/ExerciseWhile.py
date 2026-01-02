@@ -8,7 +8,7 @@ Has utilizado…” y el nº de intentos consumidos
 numberRandom = random.randint(1,100)
 
 number = int(input("Ingrese un numero del 1 al 100 para adivinar: ")) 
-countIntent = 0
+countIntent = 1
 
 while(number != numberRandom):
     
