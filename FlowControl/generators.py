@@ -18,4 +18,38 @@ def generarPars(limit):
 sucetionPars = generarPars(6)
 
 for i in sucetionPars:
-    print(i)
+    pass
+    #print(i)
+    
+    
+#next() -> seria para una sucesion pausada * imprimiria solo el primero
+
+
+
+#Funcion con parametros indefinidos
+"""  
+def capitalice_world(*capitalice):
+    for c in capitalice:
+        for letter in c:
+            yield letter
+        
+
+capitalice = capitalice_world("Pekin","Bogota","La valeta","Seul","Honk Kong")
+
+print(next(capitalice))
+print(next(capitalice))
+print(next(capitalice))
+print(next(capitalice))
+
+"""
+def capitalice_world(*capitalice):
+    for c in capitalice:
+        #for letter in c:
+        yield from c
+
+capitalice = capitalice_world("Pekin","Bogota","La valeta","Seul","Honk Kong")
+
+print(next(capitalice))
+print(next(capitalice))
+print(next(capitalice))
+print(next(capitalice))
