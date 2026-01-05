@@ -42,6 +42,8 @@ print(next(capitalice))
 print(next(capitalice))
 
 """
+
+#Otra forma de acceder a un subelemnto en una Tupla, es por la instruccion yield from #
 def capitalice_world(*capitalice):
     for c in capitalice:
         #for letter in c:
