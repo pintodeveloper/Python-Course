@@ -1,1 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Resources (PDF, images, docs)
 resources/
+
+# Code Runner
+tempCodeRunnerFile.py
