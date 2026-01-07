@@ -1,3 +1,4 @@
+import sys
 def sum(n1,n2):
     return n1+n2
 
@@ -22,6 +23,8 @@ operations = input()
 result = ""
 errorOperation = False
 
+intent = 0
+
 while(True):
     try:
         n1 = int(input("Ingrese el primer #: "))
@@ -29,6 +32,10 @@ while(True):
         break
     except ValueError:
         print("Los datos ingresados no son numericos.")
+        intent +=1
+        if(intent == 3):
+            print("Has alcanzado el limite de intentos 3 maximo, por favor vuelve a intentar mas tarde")
+            sys.exit()
 
 if(operations.lower() =="suma"):
     result = sum(n1,n2)
