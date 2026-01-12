@@ -7,6 +7,8 @@ __pycache__/
 
 # Resources (PDF, images, docs)
 resources/
+resources/*.pdf
+
 
 # Code Runner
 tempCodeRunnerFile.py
