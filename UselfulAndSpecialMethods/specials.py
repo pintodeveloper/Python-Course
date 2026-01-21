@@ -1,15 +1,21 @@
 class Person():
-    def __init__(self,name,lastName,age):
-        self.name = name
-        self.lastName = lastName
-        self.age = age
-
+    
+    dates_info = []
+    
+    def __init__(self,*dates):
+        
+        for i in dates:
+            self.dates_info.append(i) 
+        self.getDates(self.dates_info)
+    
+    def getDates(self, info):
+        for d in info:
+            print(d)
+       
 ##El metodo str pasa a string la informacion del objeto
 
 
-    def __str__(self):
-        
-        return "Datos de la persona: \n"+self.name +"\n Apellido: " +self.lastName + "\n Edad: " + str(self.age)
+    
 
 p1 = Person("felipe","pinto",20)
 
