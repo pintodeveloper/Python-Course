@@ -2,21 +2,17 @@ class Person():
     
     dates_info = []
     
-    def __init__(self,*dates):
+    def __init__(self,**dates):
         
-        for i in dates:
-            self.dates_info.append(i) 
-        self.getDates(self.dates_info)
-    
-    def getDates(self, info):
-        for d in info:
-            print(d)
-       
-##El metodo str pasa a string la informacion del objeto
-
+        element = dates.items()
+        
+        for password,value in element:
+            print(password," ",value)
+            
 
     
 
-p1 = Person("felipe","pinto",20)
+    
 
-print(p1)
+p1 = Person(name="felipe",lastName="pinto",age=20)
+
