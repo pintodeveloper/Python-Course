@@ -6,5 +6,8 @@ miReq = requests.get("https://ufpso.edu.co/")
 
 #print(miReq.headers)
 
+# Me quede sin datos
+
 
 print(miReq.text)
+
