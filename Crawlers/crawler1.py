@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 miDoc ="""
 
     <html>
+    
+    <style>
+    
+    <style>
+    
     <body>
     <p> Este es el primer parrafo</p>
     <p>Este es el segundo parrafo</>
