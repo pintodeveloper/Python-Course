@@ -1,7 +1,10 @@
 import pandas as pd
 
-aguacates = pd.read_csv("C:\\Users\\andre\\Desktop\\pinto77\\python-course\\pandas\\Aguacate.csv")
+#aguacates = pd.read_csv("C:\\Users\\andre\\Desktop\\pinto77\\python-course\\pandas\\Aguacate.csv")
+
+aguacates2 = pd.read_csv("C:\\Users\\andre\\Desktop\\pinto77\\python-course\\pandas\\Aguacate2.csv",sep=";")
 
 
 
-print(aguacates)
+
+print(aguacates2)
