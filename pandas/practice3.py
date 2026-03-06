@@ -13,4 +13,4 @@ dates_products = requests.get("https://dummyjson.com/products").json()
 products = pd.DataFrame.from_dict(dates_products.get("products"))
 
 
-print(products)
+print(products.keys())
