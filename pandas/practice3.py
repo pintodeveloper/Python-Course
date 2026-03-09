@@ -16,3 +16,4 @@ products = pd.DataFrame.from_dict(dates_products.get("products"))
 print(products.keys())
 
 print(77)
+print("mini mini")
